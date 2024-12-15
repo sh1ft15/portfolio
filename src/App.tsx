@@ -26,7 +26,9 @@ function App() {
               <div className='py-2'>
                   <h5 className='text-base font-bold mb-2'>Page builder</h5>
                   <p className='flex gap-1 text-sm text-gray-600'>Web page builder developed using Next.js</p>
-                  <a href='#' className='inline-block border rounded bg-gray-50 hover:bg-gray-200 text-sm text-gray-900 px-3 py-2 my-2'>View the builder here</a>
+                  <a href='https://next-js-demo-fe0024.gitlab.io/' className='inline-block border rounded bg-gray-50 hover:bg-gray-200 text-sm text-gray-900 px-3 py-2 my-2'>
+                      View the builder here
+                  </a>
               </div>
           </div>
 
