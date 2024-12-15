@@ -33,7 +33,23 @@ function App() {
           <div className='mb-2'>
               <h4 className='text-2xl font-bold py-2 border-b'>Games I made</h4>
               <div className='py-2'>
-                  <h5 className='text-base'>Page builder</h5>
+
+                  <div className='mb-2'>
+                      <iframe frameBorder="0" src="https://itch.io/embed/1814512?border_width=0&amp;link_color=2f2f2f" width="550" height="165">
+                          <a href="https://sh1ft15.itch.io/polaroid">Polaroid by sh1ft15</a>
+                      </iframe>
+                  </div>
+
+                  <div className='mb-2'>
+                      <iframe frameBorder="0" src="https://itch.io/embed/3083602?border_width=0&amp;link_color=2f2f2f" width="552" height="167">
+                          <a href="https://sh1ft15.itch.io/secret">Treasure Terrors by sh1ft15</a>
+                      </iframe>
+                  </div>
+
+                  <a href='https://sh1ft15.itch.io/' className='inline-block border rounded bg-gray-50 hover:bg-gray-200 text-sm text-gray-900 px-3 py-2 my-2'>
+                      Find out more here
+                  </a>
+
               </div>
           </div>
 
