@@ -1,34 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const skills : string[] = ["Javascript","Typescript","PHP","C#","Java","Vue","React","Next.js","Flutter","MySQL","Redis"];
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className='grid lg:grid-cols-3 grid-cols-1 mx-auto max-w-[60rem] my-20 text-gray-700'>
+      <div className='flex flex-col justify-between lg:col-span-1 text-xl p-2'>
+          <div>
+              <h4 className='text-3xl font-bold text-blue-500 mb-5'>Sharifuddin Omar</h4>
+              <p className='text-sm text-gray-600 mb-10'>
+                  I'm a web and mobile app developer skilled in JavaScript, PHP, Java, and C#. I graduated from Universiti Malaysia Pahang and enjoy game development with Unity and Godot.
+              </p>
+
+              <h4 className='text-xl font-bold mb-2'>Skills</h4>
+              <div className='flex flex-wrap gap-2'>
+                  {skills.map((skill : string) => {
+                      return <div key={skill} className='rounded bg-gray-700 text-white px-2 py-1 text-sm lowercase'>{skill}</div>
+                  })}
+              </div>
+          </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <div className='lg:col-span-2 text-xl p-2'>
+
+          <div className='mb-5'>
+              <h4 className='text-2xl font-bold py-2 border-b'>Projects I made</h4>
+              <div className='py-2'>
+                  <h5 className='text-base font-bold mb-2'>Page builder</h5>
+                  <p className='flex gap-1 text-sm text-gray-600'>Web page builder developed using Next.js</p>
+                  <a href='#' className='inline-block border rounded bg-gray-50 hover:bg-gray-200 text-sm text-gray-900 px-3 py-2 my-2'>View the builder here</a>
+              </div>
+          </div>
+
+          <div className='mb-2'>
+              <h4 className='text-2xl font-bold py-2 border-b'>Games I made</h4>
+              <div className='py-2'>
+                  <h5 className='text-base'>Page builder</h5>
+              </div>
+          </div>
+
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
