@@ -46,7 +46,7 @@ function App() {
                   <div className='text-sm text-gray-600'>
                       <div className='flex my-1 items-center'>
                           <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
-                          <span className='flex-grow'>Developed a drag-and-drop web page builder similar to <a className='underline hover:text-blue-500' href='https://unlayer.com/'>Unlayer</a>.</span>
+                          <span className='flex-grow'>Developed a drag-and-drop web page builder similar to <a className='underline hover:text-blue-500' href='https://unlayer.com/' target='_blank'>Unlayer</a>.</span>
                       </div>
                       <div className='flex my-1 items-center'>
                           <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
