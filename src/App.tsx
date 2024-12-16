@@ -50,15 +50,15 @@ function App() {
                       </div>
                       <div className='flex my-1 items-center'>
                           <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
-                          <span className='flex-grow'>Developed a dashboard system that helps manage the main system database.</span>
+                          <span className='flex-grow'>Built a dashboard system that helps manage the main system database.</span>
                       </div>
                       <div className='flex my-1 items-center'>
                           <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
-                          <span className='flex-grow'>Developed a multi-platform stock synchronization system that helps manage stocks between platform such as Shopee, Tiktok etc.</span>
+                          <span className='flex-grow'>Created a multi-platform stock synchronization system that helps manage stocks between platform such as Shopee, Tiktok etc.</span>
                       </div>
                       <div className='flex my-1 items-center'>
                           <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
-                          <span className='flex-grow'>Developed a form module in the main system that helps create a landing page that generate leads and orders.</span>
+                          <span className='flex-grow'>Implemented a form module in the main system that helps create a landing page that generate leads and orders.</span>
                       </div>
                   </div>
               </div>
@@ -74,11 +74,11 @@ function App() {
                   <div className='text-sm text-gray-600'>
                       <div className='flex my-1 items-center'>
                           <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
-                          <span className='flex-grow'>Developed a templates module for the main editor, enabling users to select and start with predefined diagrams.</span>
+                          <span className='flex-grow'>Created a templates module for the main editor, enabling users to select and start with predefined diagrams.</span>
                       </div>
                       <div className='flex my-1 items-center'>
                           <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
-                          <span className='flex-grow'>Developed multiple plugins to provide users with essential utilities.</span>
+                          <span className='flex-grow'>Introduced multiple plugins to provide users with essential utilities.</span>
                       </div>
                   </div>
               </div>
@@ -91,7 +91,12 @@ function App() {
                           return <div key={skill} className='rounded bg-gray-600 text-white px-2 py-1 text-xs lowercase'>{skill}</div>
                       })}
                   </div>
-                  <div className='flex gap-1 text-sm text-gray-600'>Developed an inventory management system that involved multi-layered users structure.</div>
+                  <div className='text-sm text-gray-600'>
+                      <div className='flex my-1 items-center'>
+                          <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
+                          <span className='flex-grow'>Developed an inventory management system that involved multi-layered users structure.</span>
+                      </div>
+                  </div>
               </div>
 
               <div className='py-2'>
@@ -107,7 +112,12 @@ function App() {
                           return <div key={skill} className='rounded bg-gray-600 text-white px-2 py-1 text-xs lowercase'>{skill}</div>
                       })}
                   </div>
-                  <div className='flex gap-1 text-sm text-gray-600'>Web page builder developed using Next.js</div>
+                  <div className='text-sm text-gray-600'>
+                      <div className='flex my-1 items-center'>
+                          <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
+                          <span className='flex-grow'>Web page builder developed using Next.js</span>
+                      </div>
+                  </div>
               </div>
           </div>
 
