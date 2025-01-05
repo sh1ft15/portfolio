@@ -21,6 +21,11 @@ function App() {
                       <FeatherIcon icon='mail' size={16} className={'min-w-5'}></FeatherIcon>
                       <a href='mailto:dean1595@gmail.com' className='flex-grow hover:text-blue-500'>dean1595@gmail.com</a>
                   </div>
+                  <div className='flex gap-1 my-1 items-center'>
+                      <FeatherIcon icon='mail' size={16} className={'min-w-5'}></FeatherIcon>
+                      <a href='https://www.linkedin.com/in/sharifuddin-omar/' className='flex-grow hover:text-blue-500'>www.linkedin.com/in/sharifuddin-omar</a>
+                  </div>
+
               </div>
 
 
