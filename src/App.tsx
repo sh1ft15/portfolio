@@ -1,7 +1,7 @@
 import FeatherIcon from 'feather-icons-react';
 
 function App() {
-  const skills : string[] = ["Javascript","Typescript","PHP","C#","Java","Vue","React","Next.js","Flutter","MySQL","Redis", "Tailwind"];
+  const skills : string[] = ["Javascript","Typescript","PHP","C#","Java","Vue","React","Next.js","Flutter","MySQL","Redis","Tailwind","AWS","CodeIgniter"];
 
   return (
     <div className='grid lg:grid-cols-3 grid-cols-1 mx-auto max-w-[60rem] my-20 text-gray-700 gap-2'>
@@ -41,6 +41,26 @@ function App() {
 
           <div className='mb-5'>
               <h4 className='text-2xl font-bold py-2 border-b'>Projects I made <small className='text-gray-500'>(or involved in)</small></h4>
+
+              <div className='py-2'>
+                  <a href='https://shoppego.com/' className='block text-xl my-2 hover:font-bold hover:text-blue-500' target='_blank'>Secai Marche</a>
+                  <div className='flex flex-wrap gap-1 my-2'>
+                      {['PHP', 'Javascript', 'JQuery', 'AWS', 'MySQL'].map((skill : string) => {
+                          return <div key={skill} className='rounded bg-gray-600 text-white px-2 py-1 text-xs lowercase'>{skill}</div>
+                      })}
+                  </div>
+                  <div className='text-sm text-gray-600'>
+                      <div className='flex my-1 items-center'>
+                          <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
+                          <span className='flex-grow'>Developed delivery routing feature that help logistic produce effective delivery schedule.</span>
+                      </div>
+                      <div className='flex my-1 items-center'>
+                          <FeatherIcon icon='check' size={16} className={'min-w-5'}></FeatherIcon>
+                          <span className='flex-grow'>Built a demand forecast calculation and analysis feature that helps procurement plan future purchase orders.</span>
+                      </div>
+                  </div>
+              </div>
+
               <div className='py-2'>
                   <a href='https://shoppego.com/' className='block text-xl my-2 hover:font-bold hover:text-blue-500' target='_blank'>Shoppego</a>
                   <div className='flex flex-wrap gap-1 my-2'>
