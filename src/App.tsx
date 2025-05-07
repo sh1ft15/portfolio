@@ -43,7 +43,7 @@ function App() {
               <h4 className='text-2xl font-bold py-2 border-b'>Projects I made <small className='text-gray-500'>(or involved in)</small></h4>
 
               <div className='py-2'>
-                  <a href='https://shoppego.com/' className='block text-xl my-2 hover:font-bold hover:text-blue-500' target='_blank'>Secai Marche</a>
+                  <a href='https://secai-marche.co.jp/' className='block text-xl my-2 hover:font-bold hover:text-blue-500' target='_blank'>Secai Marche</a>
                   <div className='flex flex-wrap gap-1 my-2'>
                       {['PHP', 'Javascript', 'JQuery', 'AWS', 'MySQL'].map((skill : string) => {
                           return <div key={skill} className='rounded bg-gray-600 text-white px-2 py-1 text-xs lowercase'>{skill}</div>
