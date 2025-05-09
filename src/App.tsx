@@ -1,7 +1,7 @@
 import FeatherIcon from 'feather-icons-react';
 
 function App() {
-  const skills : string[] = ["Javascript","Typescript","PHP","C#","Java","Vue","React","Next.js","Flutter","MySQL","Redis","Tailwind","AWS","CodeIgniter"];
+  const skills : string[] = ["Javascript","Typescript","PHP","C#","Java","Vue","React","Next.js","Flutter","MySQL","Redis","Tailwind","AWS","Laravel","CodeIgniter"];
 
   return (
     <div className='grid lg:grid-cols-3 grid-cols-1 mx-auto max-w-[60rem] my-20 text-gray-700 gap-2'>
@@ -45,7 +45,7 @@ function App() {
               <div className='py-2'>
                   <a href='https://secai-marche.co.jp/' className='block text-xl my-2 hover:font-bold hover:text-blue-500' target='_blank'>Secai Marche</a>
                   <div className='flex flex-wrap gap-1 my-2'>
-                      {['PHP', 'Javascript', 'JQuery', 'AWS', 'MySQL'].map((skill : string) => {
+                      {['PHP', 'Javascript', 'JQuery', 'AWS', 'MySQL', 'Laravel', 'CodeIgniter'].map((skill : string) => {
                           return <div key={skill} className='rounded bg-gray-600 text-white px-2 py-1 text-xs lowercase'>{skill}</div>
                       })}
                   </div>
@@ -64,7 +64,7 @@ function App() {
               <div className='py-2'>
                   <a href='https://shoppego.com/' className='block text-xl my-2 hover:font-bold hover:text-blue-500' target='_blank'>Shoppego</a>
                   <div className='flex flex-wrap gap-1 my-2'>
-                      {['PHP', 'Javascript', 'Vue', 'Tailwind', 'MySQL', 'Redis'].map((skill : string) => {
+                      {['PHP', 'Javascript', 'Vue', 'Tailwind', 'MySQL', 'Redis', 'Laravel'].map((skill : string) => {
                           return <div key={skill} className='rounded bg-gray-600 text-white px-2 py-1 text-xs lowercase'>{skill}</div>
                       })}
                   </div>
@@ -112,7 +112,7 @@ function App() {
                   <a href='https://weniaga.com/' className='block text-xl my-2 hover:font-bold hover:text-blue-500' target='_blank'>Weniaga</a>
 
                   <div className='flex flex-wrap gap-1 my-2'>
-                      {['PHP', 'Javascript', 'MySQL', 'Redis'].map((skill : string) => {
+                      {['PHP', 'Javascript', 'MySQL', 'Redis', 'Laravel'].map((skill : string) => {
                           return <div key={skill} className='rounded bg-gray-600 text-white px-2 py-1 text-xs lowercase'>{skill}</div>
                       })}
                   </div>
